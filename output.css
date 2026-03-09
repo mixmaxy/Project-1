@@ -243,9 +243,6 @@
   .hidden {
     display: none;
   }
-  .aspect-video {
-    aspect-ratio: var(--aspect-video);
-  }
   .h-2\.5 {
     height: calc(var(--spacing) * 2.5);
   }
@@ -257,6 +254,12 @@
   }
   .h-16 {
     height: calc(var(--spacing) * 16);
+  }
+  .h-70 {
+    height: calc(var(--spacing) * 70);
+  }
+  .h-full {
+    height: 100%;
   }
   .w-2\.5 {
     width: calc(var(--spacing) * 2.5);
@@ -379,6 +382,12 @@
   }
   .bg-white {
     background-color: var(--color-white);
+  }
+  .object-contain {
+    object-fit: contain;
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
